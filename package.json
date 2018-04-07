@@ -1,15 +1,31 @@
 {
   "name": "cordova-plugin-keyboard-service",
-  "version": "1.0.0",
+  "version": "1.0.3",
   "description": "",
-  "main": "index.js",
+  "main": "www/KeyboardService.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "cordova": {
+    "id": "com.dreamboyfire.plugin.KeyboardService",
+    "platforms": [
+      "android"
+    ]
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/dreamboyfire/cordova-plugin-keyboard-service.git"
   },
+  "engines": [
+    {
+      "name": "cordova",
+      "version": ">=3.0.0"
+    },
+    {
+      "name": "android-sdk",
+      "version": ">=16"
+    }
+  ],
   "author": "dreamboyfire",
   "license": "ISC",
   "bugs": {
